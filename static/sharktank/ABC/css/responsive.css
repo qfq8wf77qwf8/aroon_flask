@@ -1,0 +1,363 @@
+ @charset "utf-8";
+/* CSS Document */
+@media screen and (min-width:2500px) {
+ body {
+ zoom:1.25;
+}
+}
+@media screen and (max-width:2000px) {
+}
+@media screen and (max-width:1680px) {
+}
+@media screen and (max-width:1630px) {
+}
+@media screen and (max-width:1500px) {
+}
+@media screen and (max-width:1480px) {
+}
+@media screen and (max-width:1280px) {
+ .rows {
+ max-width:94%;
+ margin: 0px auto;
+}
+}
+@media screen and (max-width:1114px) {
+.rt_hedr li {
+display:none;
+}
+.rt_hedr li.serch_icon {
+display:block;
+}
+ .fotter2>ul>li.li_1 {
+width:20%;
+}
+.fotter2>ul>li.li_2 {
+width:35%;
+}
+.fotter2>ul>li.li_3 {
+width:20%;
+}
+.fotter2>ul>li.li_4 {
+width:25%;
+}
+.container {
+ width: 100%;
+}
+.assen img {
+max-width:100%;
+}
+.radix_img .rd_image {
+ width: 190px;
+ float: left;
+ margin: 15px 0 0 20px;
+}
+ .radix_txt {
+ float: left;
+ width: 340px;
+ margin-left: 20px;
+}
+.spcl_offrs a.btn_offrs {
+ line-height: 18px;
+}
+}
+@media screen and (max-width:1000px) {
+ .navbar-toggle {
+display: block;
+ float: left;
+ border: none;
+ background-color: #FFF;
+ height: 50px;
+ border-radius: 0px;
+ margin: 0px 0px 0 0;
+ padding: 10px 10px 10px 20px;
+}
+ .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+ background-color: #fff;
+}
+ .navbar-inverse .navbar-toggle .icon-bar {
+ background-color: #3165b2;
+}
+.container-fluid {
+padding:0px;
+}
+ .navbar-nav {
+display:none;
+}
+.rt_hedr li.serch_icon {
+ display: block;
+ margin: 0 20px 0 0;
+position: fixed;
+ top: 0px;
+ right: 0px;
+}
+ .navbar-collapse.collapse.in {
+background-color:#3467b0;
+}
+.navbar-collapse.collapse.in .navbar-nav {
+ display: block;
+}
+.offr_img img {
+max-width:100%;
+}
+.radix_img .rd_image {
+ width: 100%;
+ float: left;
+ margin: 15px 0 0 0px;
+ text-align: center;
+}
+.radix_txt {
+ float: left;
+ width: 100%;
+ margin-left: 0px;
+ text-align: center;
+}
+.radix_txt h4 {
+ text-align: center;
+}
+.radix_txt a.btn_offrs {
+ font-size: 18px;
+ width: 300px;
+ font-weight: bold;
+ margin: 25px 0 0 0;
+ color: #ffffff;
+ border-radius: 2px;
+ background-color: #ff9100;
+ padding: 18px 20px;
+ text-align: center;
+ display: inline-block;
+}
+.offer_brdr {
+ padding: 20px 0 20px 0;
+}
+.content_article {
+ width: 100%;
+ float: left;
+ padding: 30px 30px 0 30px;
+}
+ .radix_img {
+ margin: 10px 0 0 0;
+}
+.social_share img {
+max-width:100%;
+}
+ .main_hedr.navbar-inverse .navbar-brand {
+ padding: 5px 26px 5px 20px;
+ background: url(../images/logo_bg.png) right center no-repeat;
+ margin-left: -16px;
+ margin-right: 0px;
+ float: left;
+ text-align: right;
+}
+ .main_hedr .navbar-toggler-right {
+right:inherit;
+left:0px;
+background-color:#fff;
+outline:none;
+top:4px;
+}
+ .main_hedr .navbar-toggler-right .navbar-toggler-icon {
+background:url(../images/mob_icon.png) center center no-repeat;
+}
+.navbar-collapse.collapse {
+display:block;
+}
+ .navbar-collapse.collapse.show .navbar-nav.mr-auto {
+display:block;
+}
+.navbar-collapse.collapse.show {
+background-color: #3467b0;
+}
+ .main_hedr.navbar-inverse .navbar-nav>li>a {
+ font-size: 16px;
+ color: #FFF;
+ padding: 10px 12px;
+}
+.section1 {
+ width: 100%;
+ float: left;
+ margin: 0px 0 0 0;
+ padding:75px 0 0 0;
+}
+.article-header {
+ padding: 20px 20px 0 20px;
+}
+ .article-header h1 {
+ margin-top: 10px;
+}
+ .content_article {
+ padding: 20px 20px 0 20px;
+}
+.limtd_offers {
+ width: 100%;
+ float: left;
+ padding: 20px 20px;
+}
+.fb_comments {
+ width: 100%;
+ float: left;
+ padding: 20px 15px;
+}
+.fb_comments .col-xs-12 {
+ padding:0px 15px;
+}
+.radix_img .rd_image .prcnt_100 {
+    width: 120px;
+    height: 102px;
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
+    margin-right: -60px;
+}
+
+
+}
+ @media screen and (max-width:750px) {
+.main_hedr.navbar-inverse .navbar-brand {
+ padding: 5px 26px 5px 20px;
+}
+.navbar-toggle {
+ display: block;
+ float: left;
+ border: none;
+ background-color: #FFF;
+ height: 50px;
+ border-radius: 0px;
+ margin: 0px 0px 0 0;
+ padding: 10px 20px 10px 40px;
+}
+.main_hedr.navbar-inverse .collapse {
+ display: block;
+}
+ .main_hedr.navbar-inverse .collapse {
+ display: block;
+}
+.fotter3 .left_fotr3 {
+ float: left;
+ width: 340px;
+ text-align: left;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border:none;
+}
+}
+ @media screen and (max-width:630px) {
+.fotter2>ul>li.li_1, .fotter2>ul>li.li_2, .fotter2>ul>li.li_3, .fotter2>ul>li.li_4 {
+width:100%;
+}
+ .fotter2 ul li ul {
+display:none;
+}
+ .fotter3 .left_fotr3 {
+ float: left;
+ width: 100%;
+ text-align: left;
+}
+.fotter3 .rt_fotr3 {
+ float: left;
+ width: 100%;
+ text-align: left;
+}
+.fotter2>ul>li h4 {
+ background: #eeeeee;
+ padding: 15px 20px;
+ margin: 0 0 10px 0;
+}
+.rows {
+ max-width: 90%;
+ margin: 0px auto;
+}
+}
+ @media screen and (max-width:560px) {
+.news_contnr .lt_bar_main {
+ float: left;
+ width: 100%;
+ border-right: 1px solid #c7cfd9;
+ padding-bottom: 20px;
+}
+.article-header {
+ padding: 10px 20px 0 20px;
+}
+ .box_blue {
+ padding: 18px 15px;
+}
+ .radix_txt p {
+padding:0 15px;
+}
+ .offer_brdr h3 {
+padding:0 15px;
+}
+.rt_bar_main {
+width:100%;
+float:left;
+}
+.bannr img {
+ max-width: 100%;
+ width: 100%;
+}
+}
+ @media screen and (max-width:520px) {
+ .content_article {
+ width: 100%;
+ float: left;
+ padding: 30px 15px 0 15px;
+}
+.offer_brdr p.imprtnt {
+padding:0 15px;
+}
+.bannr_1.smpl_1 .bnr2_txt {
+ position: inherit;
+ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+ margin: 0px 0 0 0;
+ padding: 20px 10px;
+}
+.content_article .bannr_1.smpl_1 .bnr2_txt p {
+margin-bottom:0px;
+font-size: 16px;
+padding: 0px 5px;
+}
+ .content_article .bannr_1.smpl_2 .bnr2_txt {
+ position: relative;
+padding: 20px 15px;
+}
+.article-header h1 {
+ font-size: 28px;
+ line-height: 30px;
+}
+}
+@media screen and (max-width:450px) {
+.navbar-toggle {
+ margin: 0px -1px 0 0;
+}
+ .rt_hedr li.serch_icon {
+ display: none;
+}
+.radix_txt h4 span {
+ background: url(../images/step_1.png) left center no-repeat;
+ padding: 7px 0 7px 40px;
+ font-size: 15px;
+}
+.radix_txt a.btn_offrs {
+ font-size: 18px;
+ width: 90%;
+font-weight:normal;
+ margin: 25px 0 0 0;
+ padding: 18px 10px;
+}
+}
+@media screen and (max-width:400px) {
+.offer_brdr h2 {
+padding:0 10px;
+}
+}
+ @media screen and (max-width:370px) {
+ .limtd_offers {
+ width: 100%;
+ float: left;
+ padding: 20px 15px;
+}
+}
+ @media screen and (max-width:355px) {
+ .radix_txt a.btn_offrs {
+ font-size: 15px;
+}
+}

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ABC News</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='sharktank/ABC/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='sharktank/ABC/css/main.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='sharktank/ABC/css/responsive.css') }}">
+<script src="{{ url_for('static', filename='sharktank/ABC/js/jquery.min') }}.js"></script>
+<script src="{{ url_for('static', filename='sharktank/ABC/js/bootstrap.min') }}.js"></script>
+<script src="{{ url_for('static', filename='sharktank/ABC/js/all.js') }}"></script>
+
+<!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top main_hedr">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#"><img src="{{ url_for('static', filename='sharktank/ABC/images/abc_logo_aluminum.png') }}"></a> </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#"> U.S.</a></li>
+        <li><a href="#">International</a></li>
+        <li><a href="#"> Politics</a></li>
+        <li><a href="#"> Lifestyle</a></li>
+        <li><a href="#"> Entertainment</a></li>
+        <li><a href="#"> Health</a></li>
+        <li class=" dot"><a class="" href="#"> ... </a> </li>
+      </ul>
+      <div class="rt_hedr">
+        <ul>
+          <li> <a href="#"><strong>Watch</strong> </a></li>
+          <li> <a href="#"> <strong>Live</strong> </a></li>
+          <li> <a href="#"> <strong>Shows</strong></a></li>
+          <li class="serch_icon"> <a href="#"></a></li>
+          <li> <a href="#"> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<div id="top_section" class="section1">
+  <div class="container">
+    <div class="news_contnr">
+      <section class="lt_bar_main">
+        <article class="article">
+          <header class="article-header">
+            <h1>Why Every Judge On Shark Tank Backed This $4.95 Product </h1>
+            <div class="assen"> <img src="{{ url_for('static', filename='sharktank/ABC/images/asseenin.jpg') }}"> </div>
+          </header>
+          <div class="bannr_1"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bannr_img1.jpg') }}">
+            <div class="vid-figcaption"><span class="caption">*Anna and Samantha from New Jersey make history after all five Shark Tank judges invest millions. </span></div>
+          </div>
+          <div class="content_article">
+            <p> (ET, Thursday, March 23, 2017) - It was the most watched episode in Shark Tank history when sisters Anna and Samantha Martin won over the <span class="blue">Shark Tank</span> panel. </p>
+            <p> Never before had the judging panel unanimously decided to each invest millions of dollars into a potential company. </p>
+            <p> After buying a staggering 25% share in the sisters company, the <span class="blue">Shark Tank </span> panel have personally mentored the pair, helping them undergo re-branding and re-packing of their miracle product. </p>
+            </p>
+            <p> Touting their discovery as "the greatest step forward in skincare history," the judges were quick to offer up their hard earned cash to back the entrepreneurial pair. </p>
+            </p>
+            <p>"We were shocked. The most we were hoping for was some advice…we weren't even sure that we would manage to get any investors," explained Samantha. </p>
+            <p>After outstanding offers from each panel member, the sisters burst into tears. </p>
+            <p>"It didn't feel real. The fact that all these successful, business-minded people wanted to be apart of what we were doing and willing to invest their own money, it was very emotional!" explained Anna. </p>
+            <p>The pair are the first contestants in the show's long duration to ever receive a standing ovation and offers of investment from all panel members. The sisters said they celebrated the success with champagne and cake when the episode wrapped. </p>
+            <div class="bannr_1"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bannr_img2.jpg') }}">
+              <div class="vid-figcaption"><span class="caption">The sisters were the first contestants in Shark Tank history to receive investment offers from all five panel members.</span></div>
+            </div>
+            <div class="social_share"> <img src="{{ url_for('static', filename='sharktank/ABC/images/fb.png') }}"> </div>
+            <p> Since filming the show-stopping episode, the sisters have been hard at work putting the advice of their mentors into play.</p>
+            </p>
+            <p> "We completely re-branded our company and came up with new packaging," said Anna. </p>
+            <p> The pair recently unveiled the product that netted them millions of dollars in investments. </p>
+            <p> "The two products we displayed on the show have been rebranded into the {{ offer.short_name }}. It's the original formula, all we've done is change the name and the packaging," explained Samantha. </p>
+            <p> The sisters launched the products for sale through their company website and say they sold out within 5 minutes. </p>
+            <p> "We even made sure we had more product than we thought we could sell, but all of it sold out within five minutes!" exclaimed Samantha. </p>
+            <p> While the Shark Tank investors are toasting to their smart business move, women around are flocking online to purchase {{ offer.short_name }} and say the results have been life-changing. </p>
+            <p> Clinical trials of {{ offer.short_name }} have uncovered that women who used the <span class="blue">{{ offer.short_name }}</span> were able to drastically reduce the signs of aging and with continued use prevented the signs from reoccurring. </p>
+            <p> "{{ offer.short_name }} is revolutionizing anti-aging medicine," explained Barbara Corcoran from Shark Tank.</p>
+            <h2> CELEBRITIES LOVE {{ offer.short_name }} </h2>
+            <div class="bannr_1 smpl_2"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bannr_img3.jpg') }}">
+              <div class="bnr2_txt">
+                <p> "{{ offer.short_name }} is ground-breaking. They are the only company in the world who can effectively remove the signs of aging in a safe and healthy manner." - <span class="blue">Oprah Winfrey</span> </p>
+                <span class="arow_tp"></span> </div>
+            </div>
+            <div class="bannr_1 smpl_2"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bannr_img4.jpg') }}">
+              <div class="bnr2_txt">
+                <p> "I've been using {{ offer.short_name }} as a preventative skincare measure for months and I'm amazed at the change in the condition of my skin.<br>
+                  My skin has never felt so healthy or looked so good!" - <span class="blue">Megan Mullally </span> </p>
+                <span class="arow_tp"></span> </div>
+            </div>
+            <div class="bannr_1 smpl_2"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bannr_img5.jpg') }}">
+              <div class="bnr2_txt">
+                <p> "I have a hectic schedule and I don't have a lot of time to devote to beauty routines. That's why I love {{ offer.short_name }}! Just a few minutes every morning and night keeps my skin beautiful and wrinkle-free." - <span class="blue">Sandra Bullock</span> </p>
+                <span class="arow_tp"></span> </div>
+            </div>
+            <div class="bannr_1 smpl_2"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bannr_img6.jpg') }}">
+              <div class="bnr2_txt">
+                <p> "I don't wear a lot of makeup, so if my skin is suffering – the whole world knows about it. Thankfully I discovered {{ offer.short_name }} and now I even film episodes of my show completely makeup-free. No one notices because my skin looks incredible!" - <span class="blue"> Ellen DeGeneres </span> </p>
+                <span class="arow_tp"></span> </div>
+            </div>
+            <div class="bannr_1 smpl_2"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bannr_img7.jpg') }}">
+              <div class="bnr2_txt">
+                <p> "I love taking care of myself and I've used countless beauty products. I'm addicted! But nothing works even half as well as {{ offer.short_name }}. I had a few lines forming around my eyes and mouth, but a few weeks of using {{ offer.short_name }} completely erased them!" - <span class="blue"> Eva Longoria</span> </p>
+                <span class="arow_tp"></span> </div>
+            </div>
+            <h2> GIVE YOURSELF THE STAR TREATMENT </h2>
+            <p> For a limited time anyone can try {{ offer.short_name }} for free! </p>
+            <p> That's right, {{ offer.short_name }} are giving away samples of their Instant Wrinkle Reduction Cream for FREE. </p>
+            <p> The only cost you will incur is the discounted shipping rate of $4.95. The cream will then be delivered straight to your door and ready to use immediately. </p>
+            <p> Remember it's important that you use the <span class="blue">{{ offer.short_name }}</span> to achieve the full anti-aging results. </p>
+            <p> This offer won't last for long so make sure you follow the link below to claim your free sample today before they all run out! </p>
+          </div>
+        </article>
+        <div class="limtd_offers">
+          <div class="offer_brdr">
+            <h2> Limited Time Offer For Our Readers </h2>
+            <h3> (FREE SAMPLES RUN OUT DAILY - CLAIM YOURS NOW BEFORE THEY'RE ALL GONE) </h3>
+            <p class="imprtnt"> IMPORTANT: During clinical testing it was proven that <br>
+              you MUST use this product DAILY to achieve similar results.</p>
+            <div class="box_blue"> Only <span class="yelow">2 Samples Still Available</span>. Free Sample Promotion Ends: Thursday, March 23, 2017 </div>
+            <div class="{{ offer.short_name }}_img">
+              <div class="rd_image"> 
+              <img src="{{ offer.image_url }}"> 
+              <span class="prcnt_100"><img src="{{ url_for('static', filename='sharktank/ABC/images/percnt_100.png') }}"></span> </div>
+              <div class="{{ offer.short_name }}_txt">
+                <h4><span> Step 1: Free Sample of {{ offer.short_name }} </span></h4>
+                <a href="#" class="btn_offrs"> GET YOUR SAMPLE BOTTLE </a>
+                <p> Take advantage of our exclusive link and pay only $4.95 for shipping! <br>
+                  This special offer ends: Thursday, March 23, 2017 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="rt_bar_main">
+        <h3 class="hd_top">Sponsored Content Provided By {{ offer.short_name }}</h3>
+        <div class="comon_BA">
+          <h5 class="hd_h5">Reader Results</h5>
+          <div class="bannr"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bfr_1.jpg') }}"> </div>
+          <div class="bnr_txt">
+            <p> Lacey Johnson, age 53 submitted this photo of her results with {{ offer.short_name }}. You look great, Lacey!</p>
+            <p class="border_p">"The <span class="blue">{{ offer.short_name }}</span> is the absolute best wrinkle removing product I've ever used. I thought my days of looking young were long gone. I can't thank you enough for this!"</p>
+            <p class="name"> Lacey Johnson <br>
+              New York, NY </p>
+          </div>
+        </div>
+        <div class="comon_BA">
+          <h5 class="hd_h5">BEFORE & AFTER </h5>
+          <div class="bannr"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bfr_2.jpg') }}"> </div>
+          <div class="bnr_txt">
+            <p class="border_p"> "I've been trying to get rid of my eye bags for almost 10 years. {{ offer.short_name }} got rid of them in a week. Thanks so much!"</p>
+            <p class="name"> Andrea Spender <br>
+              Austin, TX </p>
+          </div>
+        </div>
+        <div class="comon_BA">
+          <h5 class="hd_h5">BEFORE & AFTER</h5>
+          <div class="bannr"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bfr_3.jpg') }}"> </div>
+          <div class="bnr_txt">
+            <p class="border_p"> "For the first time in forever I am finally happy when I look in the mirror every morning. I haven't felt this confident in decades!"</p>
+            <p class="name">Kelly McKay <br>
+              Philadelphia, PA </p>
+          </div>
+        </div>
+        <div class="comon_BA">
+          <h5 class="hd_h5">BEFORE & AFTER</h5>
+          <div class="bannr"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bfr_4.jpg') }}"> </div>
+          <div class="bnr_txt">
+            <p class="border_p">"Thank God I didn't go through with that face lift... I got the same results, for less than a cup of coffee!"</p>
+            <p class="name"> Christina Novotney<br>
+              Seattle, WA </p>
+          </div>
+        </div>
+        <div class="comon_BA">
+          <h5 class="hd_h5">BEFORE & AFTER</h5>
+          <div class="bannr"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bfr_5.jpg') }}"> </div>
+          <div class="bnr_txt">
+            <p class="border_p">"Ive only been using the {{ offer.short_name }} for 2 weeks, and I love it!!!!!!!! I have seen a visible change in my skin, best of all my husband complimented me on my skin after just 2 weeks!!!!! He thought I had foundation on, and I did'nt that is just fabulous!!!!!!!!"</p>
+            <p class="name">Carol Keeton<br>
+              Denver, CO </p>
+          </div>
+        </div>
+        <div class="comon_BA">
+          <h5 class="hd_h5">BEFORE & AFTER</h5>
+          <div class="bannr"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bfr_6.jpg') }}"> </div>
+          <div class="bnr_txt">
+            <p class="border_p">"I have been using {{ offer.short_name }} and I am incredibly impressed with the results! My skin is brighter and it is very apparent that my skin is more hydrated and dewy."</p>
+            <p class="name">Briana Smith<br>
+              Houston, TX</p>
+          </div>
+        </div>
+        <div class="comon_BA">
+          <h5 class="hd_h5">BEFORE & AFTER</h5>
+          <div class="bannr"> <img src="{{ url_for('static', filename='sharktank/ABC/images/bfr_7.jpg') }}"> </div>
+          <div class="bnr_txt">
+            <p class="border_p"> "YES!! Finally, I have found a skin care range that works. At 56 years old this is the first time I've had products that work for me." </p>
+            <p class="name"> Angie Clayton<br>
+              Miami, FL </p>
+          </div>
+        </div>
+        <div class="spcl_offrs">
+          <h3> Special Offer</h3>
+          <h4><span> Step 1:</span></h4>
+          <a href="#" class="click_hr"> Click here to claim your free sample of {{ offer.short_name }} </a>
+          <div class="offr_img"> <img src="{{ offer.image_url }}"> </div>
+          <h5> Free Samples are limited.<br>
+            Expires on Thursday, March 23, 2017 </h5>
+          <a href="#" class="btn_offrs"> GET YOUR SAMPLE BOTTLE</a> </div>
+      </section>
+    </div>
+    <div class="news_contnr">
+      <section class="lt_bar_main">
+        <div class="fb_comments">
+          <div class="row recent">
+            <div class="col-xs-12"> <a href="#" target="_blank" class="pull-left">Recent # Comments</a>
+              <p class="pull-right add_comnt">Add a comment</p>
+            </div>
+          </div>
+          <div class="media first">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_1.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Tohloria Lewis</a></h4>
+              <p> I have been using this Anti Aging cream for 3 weeks now, and I seriously look 5 years younger! Not quite as good as Anna and Samantha, but I will take it when it was less than 5 bucks for shipping! My crow's feet and laugh lines are melting away more and more every day. Thank you so much for reporting on this! </p>
+              <p class="bottom m-b-8">Reply <span class="like">13  Like</span> <span class="time">12 minutes ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_2.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Tanya Porquez</a></h4>
+              <p>I saw Anna and Samantha presenting {{ offer.short_name }} on CNN a while ago and am still using the cream. I've been using the products for about 6 wks. Honestly, this is unbelievable, all I have to say is WOW.</p>
+              <p class="bottom m-b-8">Reply <span class="like">6  Like</span> <span class="time">13 minutes ago</span></p>
+            </div>
+          </div>
+          <div class="media p-b-0">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_3.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Jennifer Jackson Mercer</a></h4>
+              <p>A friend of mine used and recommended it 
+                to me 3 weeks ago. I ordered the product and received it within 3 
+                days. The results have 
+                been incredible and I can't wait to see what weeks 3 and 4 bring.</p>
+              <p class="bottom m-b-8">Reply <span class="like">19  Like</span> <span class="time">25 minutes ago</span></p>
+              <div class="media">
+                <div class="media-left"> <a href="#" target="_blank"> <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_4.jpg') }}" > </a> </div>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="">Kristy Cash</a></h4>
+                  <p>I wish I knew about this product before I had botox injections! It would have saved a heck of a lot of money!</p>
+                  <p class="bottom">Reply <span class="like"> Like .</span> <span class="time">46 minutes ago</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_5.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Katy Barrott</a></h4>
+              <p> I can't believe this is really free! I am very much pleased after using this product.</p>
+              <p class="bottom m-b-8">Reply <span class="like">43  Like</span> <span class="time">about an hour ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_6.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Amanda Gibson</a></h4>
+              <p>I saw this on the news. How lucky is Kim to have been given this opportunity!?!?! Thank you for sharing this article! I just ordered my free sample.</p>
+              <p class="bottom m-b-8">Reply <span class="like">3  Like</span> <span class="time">1 hour ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_7.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" > Julie Keyse</a></h4>
+              <p>probably I'm a bit older than most of you folks. but {{ offer.short_name }} worked for me too! LOL! I can't say anything more exciting. Thanks for the inspiration!</p>
+              <p class="bottom m-b-8">Reply <span class="like"> Like</span> <span class="time">2 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_8.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Kirsten Bauman Riley</a></h4>
+              <p> I'm going to give this product a chance to work its magic on me. I've tried everything out there and so far nothing has been good enough to help me.</p>
+              <p class="bottom m-b-8">Reply <span class="like">30  Like</span> <span class="time">2 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_9.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Celia Kilgard</a></h4>
+              <p> worked for me! It worked just like I thought it would. It was easy enough and I just want others to know when something works.</p>
+              <p class="bottom m-b-8">Reply <span class="like">53  Like</span> <span class="time">2 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_10.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Alanna 'martin' Payne</a></h4>
+              <p> Thanks for the info, just started mine.</p>
+              <p class="bottom m-b-8">Reply <span class="like">16  Like</span> <span class="time">2 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_11.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Alice Chang</a></h4>
+              <p> Been so busy with the kids lately that I'm never able to find deals like this. I'll give it a shot!</p>
+              <p class="bottom m-b-8">Reply <span class="like">2  Like</span> <span class="time">2 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_12.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Mark Fadlevich</a></h4>
+              <p> Always impressed with the deals you guys dig up, got my sample. Can't wait to see what you've got lined up next week.</p>
+              <p class="bottom m-b-8">Reply <span class="like">11  Like</span> <span class="time">2 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_13.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Ashley O'Brien Berlin</a></h4>
+              <p> Yes this stuff is amazing! My best friend Gina uses this, I've been trying for years to get rid of my wrinkles and nothing was helping. You alerted me to the possibility of achieving my goals, which is looking great for my daughter's wedding. I just ordered the free sample and I have a very good feeling about it!!</p>
+              <p class="bottom m-b-8">Reply <span class="like">33  Like</span> <span class="time">2 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_14.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Amanda Hickam</a></h4>
+              <p> Hey Christine, i just placed my order. I can't wait to get my {{ offer.short_name }}!! Thanks, Aimee xoxoxo.</p>
+              <p class="bottom m-b-8">Reply <span class="like">23  Like</span> <span class="time">3 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_15.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Brittany Jackson</a></h4>
+              <p> My mom just e-mailed me this, a friend at work had told her about it. i guess it works really well</p>
+              <p class="bottom m-b-8">Reply <span class="like">6  Like</span> <span class="time">3 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_16.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" > Shellie Wilson Hodge</a></h4>
+              <p> Telling all my friends about this, thanx for the info</p>
+              <p class="bottom m-b-8">Reply <span class="like">2  Like</span> <span class="time">3 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_17.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Jill Phongsa</a></h4>
+              <p>wasn't sure about ordering online but this deal seals it for me, didn't want to miss out. checked out the pages and all is encrypted and good. looking forward to my new looks</p>
+              <p class="bottom m-b-8">Reply <span class="like">17  Like</span> <span class="time">4 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_18.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Molly Murley Davis</a></h4>
+              <p> I've gone ahead and ordered my sample. I can't wait to get started and see what happens. </p>
+              <p class="bottom m-b-8">Reply <span class="like">8  Like</span> <span class="time">6 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_19.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Jenna Ponchot Bush</a></h4>
+              <p> As a realtor it's important to look and feel my best, unfortunately the housing market isn't doing that great so cash has been a little tight lately. Thanks for the info, looking forward to receiving my sample bottle.</p>
+              <p class="bottom m-b-8">Reply <span class="like">20  Like</span> <span class="time">8 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_20.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Laura Kelch Miranda</a></h4>
+              <p> I have tried so much of this kind of stuff, in one sense I want to try it but in the back of my mind I am thinking, yeah right!! Someone please reassure me it works.</p>
+              <p class="bottom m-b-8">Reply <span class="like">10  Like</span> <span class="time">8 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_21.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Sara Bergheger</a></h4>
+              <p> I tried the wrinkle cream thing a while ago and it worked pretty good.</p>
+              <p class="bottom m-b-8">Reply <span class="like">13  Like</span> <span class="time">8 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_22.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Lauren Kirschenbaum Silver</a></h4>
+              <p> For once I was able to do something nice for myself without feeling guilty about the cost. Can't beat free.</p>
+              <p class="bottom m-b-8">Reply <span class="like">3  Like</span> <span class="time">8 hours ago</span></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left"> <a href="#" > <img class="media-object" src="{{ url_for('static', filename='sharktank/ABC/images/profile_23.jpg') }}" > </a> </div>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="#" >Gotmy Mindframe Right</a></h4>
+              <p> Had no idea you could get results like this.</p>
+              <p class="bottom m-b-8">Reply <span class="like">5  Like</span> <span class="time">9 hours ago</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<section class="main_footer">
+  <div class="rows">
+    <div class="fotter1">
+      <h1><img src="{{ url_for('static', filename='sharktank/ABC/images/abc_logo_aluminum.png') }}"></h1>
+      <a href="#top_section" class="black-ln">Back To Top</a> </div>
+    <div class="fotter2">
+      <ul>
+        <li class="li_1">
+          <h4> SECTIONS </h4>
+          <ul>
+            <li> <a href="#"> U.S. </a></li>
+            <li> <a href="#"> International </a></li>
+            <li> <a href="#"> Politics </a></li>
+            <li> <a href="#"> Weird News </a></li>
+            <li> <a href="#"> Investigative </a></li>
+            <li> <a href="#"> Health </a></li>
+            <li> <a href="#"> Entertainment </a></li>
+            <li> <a href="#"> Sports </a></li>
+            <li> <a href="#"> Money </a></li>
+            <li> <a href="#"> Technology </a></li>
+            <li> <a href="#"> Travel </a></li>
+            <li> <a href="#"> Recipes </a></li>
+            <li> <a href="#"> News Topics </a></li>
+            <li> <a href="#"> Live Blog </a></li>
+          </ul>
+        </li>
+        <li class="li_2">
+          <h4> SHOWS </h4>
+          <ul>
+            <li> <a href="#"> Good Morning America </a></li>
+            <li> <a href="#"> World News Tonight with David Muir </a></li>
+            <li> <a href="#"> Nightline </a></li>
+            <li> <a href="#"> World News Now & America This Morning </a></li>
+            <li> <a href="#"> This Week with George Stephanopoulos </a></li>
+            <li> <a href="#"> 20/20 </a></li>
+            <li> <a href="#"> Primetime </a></li>
+            <li> <a href="#"> What Would You Do? </a></li>
+            <li> <a href="#"> ABC.com </a></li>
+          </ul>
+        </li>
+        <li class="li_3">
+          <h4> TOOLS </h4>
+          <ul>
+            <li> <a href="#"> Devices </a></li>
+            <li> <a href="#">Facebook </a></li>
+            <li> <a href="#">Twitter </a></li>
+            <li> <a href="#">Google Plus </a></li>
+            <li> <a href="#">YouTube </a></li>
+            <li> <a href="#">Press Releases </a></li>
+            <li> <a href="#">RSS Headlines </a></li>
+            <li> <a href="#">Site Map </a></li>
+          </ul>
+        </li>
+        <li class="li_4">
+          <h4> ABOUT </h4>
+          <ul>
+            <li> <a href="#"> Contact Us </a></li>
+            <li> <a href="#">Feedback </a></li>
+            <li> <a href="#">Advertising </a></li>
+            <li> <a href="#">Terms of Use </a></li>
+            <li> <a href="#">Privacy Policy </a></li>
+            <li> <a href="#">Your California Privacy Rights </a></li>
+            <li> <a href="#">Children's Online Privacy Policy </a></li>
+            <li> <a href="#">Interest-Based Ads </a></li>
+            <li> <a href="#">ABC News Store </a></li>
+            <li> <a href="#">Authors List </a></li>
+            <li> <a href="#">Go.com </a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="fotter3">
+      <p class="left_fotr3"> External links are provided for reference purposes. ABC News is not responsible for the content of external Internet sites.</p>
+      <p class="rt_fotr3"> Copyright © 2017 ABC News Internet Ventures. Yahoo! - ABC News Network </p>
+    </div>
+  </div>
+</section>
+</body>
+</html>
