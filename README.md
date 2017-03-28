@@ -1,4 +1,9 @@
 
+# What is required?
+
+- This server runs on flask. So you need to have python installed (most machine already has python installed)
+- All installation is managed by `pip`. This comes with most system pythons.
+
 # Installaion Instructions
 
 - requirement.txt has all the dependency of this mini webserver. To install them, run `pip install -r requirement.txt`
